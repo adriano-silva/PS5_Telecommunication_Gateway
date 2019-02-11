@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GroupAddress-Export xmlns="http://knx.org/xml/ga-export/01">
+  <GroupRange Name="sensors" RangeStart="1" RangeEnd="2047">
+    <GroupRange Name="powerMeasurement" RangeStart="256" RangeEnd="511">
+      <GroupAddress Name="totalConsumption" Address="0/1/0" DPTs="DPST-14-56" />
+    </GroupRange>
+  </GroupRange>
+  <GroupRange Name="actuators" RangeStart="2048" RangeEnd="4095">
+    <GroupRange Name="lightningControl" RangeStart="2048" RangeEnd="2303">
+      <GroupAddress Name="kitchenLight" Address="1/0/0" DPTs="DPST-1-1" />
+      <GroupAddress Name="roomLight" Address="1/0/1" DPTs="DPST-1-1" />
+      <GroupAddress Name="all" Address="1/0/2" DPTs="DPST-1-1" />
+    </GroupRange>
+  </GroupRange>
+</GroupAddress-Export>
