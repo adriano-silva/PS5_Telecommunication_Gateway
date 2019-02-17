@@ -3,4 +3,5 @@ A gateway that allows to control and retrieve information from sensors and actua
 
 ### Authors
 Adriano Silva
+
 Matthieu Jourdan
